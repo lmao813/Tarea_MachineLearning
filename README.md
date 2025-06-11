@@ -16,7 +16,7 @@
 **Relevancia:**  
 
 - **Ejercicio 4:** Estudie el algoritmo de árboles de decisión , con todo detalle mejore su documentación y con base en el haga cambios para una aplicación.  
-**Objetivo:**    
+**Objetivo:** Implementar un árbol de decisión para clasificar el género basado en masa y altura, utilizando tanto scikit-learn como una explicación manual del proceso de decisión.  
 **Complejidad:**    
 **Relevancia:**  
 
