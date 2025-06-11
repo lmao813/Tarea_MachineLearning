@@ -9,3 +9,14 @@
 **Objetivo:**    
 **Complejidad:**    
 **Relevancia:**  
+
+- **Ejercicio 3:** Estudie el algoritmo de K- Nearest, con todo detalle mejore su documentación y con base en el haga cambios para una aplicación.  
+**Objetivo:**    
+**Complejidad:**    
+**Relevancia:**  
+
+- **Ejercicio 4:** Estudie el algoritmo de árboles de decisión , con todo detalle mejore su documentación y con base en el haga cambios para una aplicación.  
+**Objetivo:**    
+**Complejidad:**    
+**Relevancia:**  
+
