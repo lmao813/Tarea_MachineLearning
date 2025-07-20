@@ -3,7 +3,7 @@
 
 ## 📌 Descripción del ejercicio
 A partir de la figura 6.1 propuesta en clase, se pidió tomar una función matemática (por ejemplo, una raíz cúbica, un seno, etc.) y generar un conjunto de datos. Con este dataset, se debía entrenar un modelo de Machine Learning que aproximara una función diferente, en este caso:  
-> 📈 **Aproximar la función raíz cuadrada (√x) usando una red neuronal.**
+- 📈 **Aproximar la función raíz cuadrada (√x) usando una red neuronal.**
 
 ---
 
