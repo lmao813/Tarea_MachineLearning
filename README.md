@@ -27,6 +27,5 @@ Este capítulo aborda conceptos fundamentales del aprendizaje automático (Machi
   - **Visualización:** Diagrama completo del árbol con condiciones, clases y distribución de ejemplos por nodo.  
   - **Resultado:** Precisión superior al 90%, con excelente interpretabilidad del modelo.
 
-## 🧠 Notas Finales  
-- Los ejercicios enfatizan la comprensión teórica y práctica de los algoritmos.  
-- Se utilizaron datasets estándar para facilitar la replicación de resultados. 
+## 💻 Notebook en Python
+https://colab.research.google.com/drive/1VYoDuLMwMVMqaMtDKi8yuTBq3yWncOn6
