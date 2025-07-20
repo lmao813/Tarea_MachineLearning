@@ -1,21 +1,38 @@
-# Tarea de Redes Neuronales
+# 📊 Tarea de Machine Learning  
 **Curso:** Inteligencia Artificial y Mini-Robots  
 **Autor:** David Camilo Guzmán Guerrero  
-**Fecha de Entrega:** Junio 2025  
-**Repositorio:** [Enlace a GitHub](https://github.com/lmao813/Tarea_MachineLearning)  
+**Fecha de Entrega:** Julio 2025  
+**Repositorio:** [Enlace al repositorio](https://github.com/lmao813/Tarea_MachineLearning)  
 
-## Contenido  
-- **Ejercicio 1:** Considere la figura 6.1, tome una ecuación determinada, por ejemplo una raíz cúbica, o un seno, genere un data set con muchos valores. Con base en ese data set y utilizando una herramienta de ML, encuentre un modelo para el cálculo de la raíz cuadrada. Úselo con 10 ejemplos y compare los resultados con los que da la función del lenguaje.  
-**Objetivo:** Aproximar una función matemática (ejemplo: sin(x)) utilizando un modelo de regresión con scikit-learn. Comparar los resultados con los valores reales calculados con funciones nativas de Python.     
-**Complejidad:** Requiere comprensión de conceptos matemáticos y ajuste de modelos.  
-**Relevancia:** Fundamentos de ML para problemas de regresión. Entrenamiento y evaluación de modelos. Visualización de resultados.  
+## 📚 Contenido del Capítulo  
+Este capítulo aborda conceptos fundamentales del aprendizaje automático (Machine Learning), explorando tanto modelos tradicionales como redes neuronales, y aplicándolos en problemas reales con Python.
 
-- **Ejercicio 3:** Estudie el algoritmo de K- Nearest, con todo detalle mejore su documentación y con base en el haga cambios para una aplicación.  
-**Objetivo:** Implementar el algoritmo KNN desde cero para clasificación, utilizando el dataset de ejemplo del ejercicio (masa y altura para predecir género). Luego, comparar con la implementación de scikit-learn.  
-**Complejidad:** Ideal para introducción a clasificación supervisada.  
-**Relevancia:** Aprendizaje basado en instancias. Interpretación geométrica. Sensibilidad al parámetro *k*.  
+---
 
-- **Ejercicio 4:** Estudie el algoritmo de árboles de decisión , con todo detalle mejore su documentación y con base en el haga cambios para una aplicación.  
-**Objetivo:** Implementar un árbol de decisión para clasificar el género basado en masa y altura, utilizando tanto scikit-learn como una explicación manual del proceso de decisión.  
-**Complejidad:** Requiere entender métricas de división.  
-**Relevancia:** Modelos interpretables ("cajas blancas"). Selección automática de características. Manejo de datos no lineales.  
+- **Ejercicio 1: Modelado de función raíz cuadrada**  
+**Descripción:** Se genera un dataset basado en la función raíz cuadrada, y se entrena un modelo para que la aprenda usando un perceptrón multicapa (MLP).  
+**Herramientas:** `scikit-learn`, `matplotlib`, `numpy`  
+**Relevancia:** Introduce la idea de aproximar funciones matemáticas usando modelos de aprendizaje.  
+**Resultado:** Error promedio cercano a cero, validando que la red aprendió correctamente el patrón de la función.
+
+---
+
+- **Ejercicio 2: Estudio y modificación del algoritmo SVM**  
+**Descripción:** Se estudia a profundidad el funcionamiento de las Máquinas de Vectores de Soporte (SVM), documentando sus fundamentos y aplicándolo en un problema de clasificación binaria con datos sintéticos.  
+**Herramientas:** `scikit-learn`, `matplotlib`, `numpy`  
+**Modificaciones:** Ajuste del parámetro `C` y del kernel para observar el impacto sobre la frontera de decisión.  
+**Resultado:** Visualización de fronteras con diferentes kernels (lineal, polinomial y RBF), comprendiendo su efecto en la complejidad del modelo.
+
+---
+
+- **Ejercicio 4: Árboles de Decisión aplicados al dataset de Iris**  
+**Descripción:** Se implementa un árbol de decisión para clasificar especies de flores.  
+**Herramientas:** `DecisionTreeClassifier` de `scikit-learn`  
+**Visualización:** Diagrama completo del árbol con condiciones, clases y distribución de ejemplos por nodo.  
+**Resultado:** Precisión superior al 90%, con excelente interpretabilidad del modelo.
+
+---
+
+## 🧠 Notas Finales  
+- Los ejercicios enfatizan la comprensión teórica y práctica de los algoritmos.  
+- Se utilizaron datasets estándar para facilitar la replicación de resultados. 
